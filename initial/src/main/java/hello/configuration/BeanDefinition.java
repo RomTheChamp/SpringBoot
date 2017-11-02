@@ -14,4 +14,10 @@ public class BeanDefinition
 	{
 		return new VehicleDetailBuilder();
 	}
+	
+	@Bean
+	public InputHolder inputHolder()
+	{
+		return new InputHolder();
+	}
 }
